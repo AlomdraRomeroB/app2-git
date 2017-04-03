@@ -1,0 +1,375 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/tema-app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.structure-1.4.5.min.css"/>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script> -->
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/compañia2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1 align="center">TELEFONÍA CELULAR</h1>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_0"/></li>
+		<li><img src="data1/images/celular.jpg" alt="celular" title="celular" id="wows1_1"/></li>
+		<li><img src="data1/images/evolucion3.jpg" alt="evolucion3" title="evolucion3" id="wows1_2"/></li>
+		<li><img src="data1/images/evolucion4.jpg" alt="evolucion4" title="evolucion4" id="wows1_3"/></li>
+		<li><img src="data1/images/ptelefono.jpg" alt="ptelefono" title="ptelefono" id="wows1_4"/></li>
+		<li><img src="data1/images/historia.jpg" alt="historia" title="historia" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/compaia1.jpg" alt="wow slider" title="compañia1" id="wows1_6"/></a></li>
+		<li><img src="data1/images/galta.jpg" alt="galta" title="galta" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>1</span></a>
+		<a href="#" title="celular"><span><img src="data1/tooltips/celular.jpg" alt="celular"/>2</span></a>
+		<a href="#" title="evolucion3"><span><img src="data1/tooltips/evolucion3.jpg" alt="evolucion3"/>3</span></a>
+		<a href="#" title="evolucion4"><span><img src="data1/tooltips/evolucion4.jpg" alt="evolucion4"/>4</span></a>
+		<a href="#" title="ptelefono"><span><img src="data1/tooltips/ptelefono.jpg" alt="ptelefono"/>5</span></a>
+		<a href="#" title="historia"><span><img src="data1/tooltips/historia.jpg" alt="historia"/>6</span></a>
+		<a href="#" title="compañia1"><span><img src="data1/tooltips/compaia1.jpg" alt="compañia1"/>7</span></a>
+		<a href="#" title="galta"><span><img src="data1/tooltips/galta.jpg" alt="galta"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-fisrt-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es un teléfono celular?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Historia de la telefonía celular</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Clasificación de la telefonía celular</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Compañías que manejan la telefonía celular en México</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Teléfonos celulares del futuro</h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/logo.png" width="46" height="46">
+</div>
+<div>
+<h4> Aplicacion Dos</h4>
+<h4>Alondra Gaviota Romero Barojas</h4
+></div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>¿Qué es un teléfono celular?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El teléfono celular es un dispositivo inalámbrico electrónico para acceder y utilizar los servicios de las redes de telefonía celular o móvil y así poder comunicarse mediante llamadas de voz, mensajes de texto, acceder a Internet y otros servicios.
+  Han adquirido nuevas funcionalidades más allá de limitarse a llamar o enviar mensajes de texto, habiendo integrado cámaras fotográficas, agendas electrónicas, etc., en un solo dispositivo pequeño y portátil, muy popular, y que recibe el nombre de teléfono inteligente (smartphone). Esta evolución le ha llevado a perder alguno de sus elementos distintivos como el teclado, sustituido por pantallas táctiles.</h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Teléfono celular</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/celular.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Aplicacion Dos, AGRB</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Historia de la telefonía celular</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El teléfono celular se remonta a los inicios de la Segunda Guerra Mundial, donde ya se veía que era necesaria la comunicacióna distancia, es por eso que la compañía Motorola creó un equipo llamado Handie Talkie H12-16, que es un equipo que permite el contacto con las tropas vía ondas de radio que en ese tiempo no superaban más de 600 Khz. 
+Fue sólo cuestión de tiempo para que las dos tecnologías de Tesla y Marconi se unieran y dieran a la luz la comunicación mediante radio-teléfonos: Martín Cooper, pionero y considerado como el padre de la telefonía celular, fabricó el primer radio teléfono entre 1970 y 1973, en Estados Unidos, y en 1979 aparecieron los primeros sistemas a la venta en Tokio (Japón), fabricados por la Compañía NTT. Los países europeos no se quedaron atrás y en 1981 se introdujo en Escandinava un sistema similar a AMPS (Advanced Mobile Phone System). 
+En 1985 se comenzaron a perfeccionar y amoldar las características de este nuevo sistema revolucionario ya que permitía comunicarse a distancia. Fue así que en los años 1980 se llegó a crear un equipo que ocupaba recursos similares a los Handie Talkie pero que iba destinado a personas que por lo general eran grandes empresarios y debían estar comunicados, es ahí donde se crea el teléfono móvil y marca un hito en la historia de los componentes inalámbricos ya que con este equipo podría hablar a cualquier hora y en cualquier lugar.</h2>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Historia Teléfono</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/historia.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4> Aplicacion Dos, AGRB</h4>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Clasificación de la telefonía celular</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+         <h2 align="left"> <strong>Gama alta </strong></h2>
+         <p align="left"><strong>Los mejores avances tecnológicos pueden aparecer en está gama para luego ser heredados con el tiempo a la gama media en menor medida.</strong></p>
+         <p align="left"><strong>También pueden incluirse otros terminales no tan nuevos pero que siguen siendo una excelente opción en gama alta aunque no cumplan con el requisito del precio</strong></p>
+         <p align="left"><strong>Sus caracteristicas son las siguientes:.</strong></p>
+         <div align="left">
+           <ul>
+           </ul>
+         </div>
+         <ul>
+           <p align="left"><strong>Pantallas de 4 pulgadas en adelante</strong></p>
+           <p align="left"><strong>Memoria interna desde 16GB</strong></p>
+           <p align="left"><strong>Soporte de actualizaciones (las recibe antes pero depende de la marca)</strong></p>
+           <p align="left"><strong>Diseñados para redes 4G</strong></p>
+           <p align="left"><strong>Muchos núcleos, procesadores y RAM para que sean muy rápidos</strong></p>
+           <p align="left"><strong>Cámaras de calidad desde 8 Mpx</strong></p>
+           <p align="left"><strong>Destacan por ser relativamente delgados</strong></p>
+           <p align="left"><strong>Eficiencia energética</strong></p>
+           <p align="left"><strong>Se conectan con la TV</strong></p>
+           <p align="left"><strong>Desde 800 dólares en adelante</strong></p>
+           <p align="left"><strong>Se conectan con Wearables (Galaxy Gear,iWatch, etc)</strong></p>
+           <p align="left"><strong>Mide tu ritmo cardíaco, predice el futuro, te ayuda a bajar de peso, puedes mirar las estrellas, lee tu mente (es broma) y todo lo que se te ocurra.</strong></p>
+        </ul>
+        <h2>
+  <p>&nbsp;</p>
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Gama alta</h1>
+      <div>
+        <p></p>
+        <br>
+        </div>
+      <div>
+        <img src="imagenes/galta.jpg" width="50%" height="50%"> </div>
+      </div>
+  </div>
+  <p>&nbsp;</p>
+        </h2>
+        <h2 align="left">          <strong>Gama media</strong></h2>
+        <p align="left"><strong>Aquí se ubican los SmartPhones algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto.</strong></p>
+        <p align="left"><strong>Sus caracteristicas son las siguientes:</strong></p>
+        <div align="left">
+          <ul>
+          </ul>
+        </div>
+        <ul>
+          <p align="left"><strong>Suelen ser muy equilibrados en sus características</strong></p>
+          <p align="left"><strong>Generalmente no superan los 500 dólares en precio (como mucho).</strong></p>
+          <p align="left"><strong>Tienen algunas funciones de la gama alta del momento.</strong></p>
+          <p align="left"><strong>Los materiales ya son de calidad aceptable.</strong></p>
+          <p align="left"><strong>Pantallas que no superan las 4.5 pulgadas (en promedio).</strong></p>
+          <p align="left"><strong>Cámaras de 3 a 5 Mpx</strong></p>
+          <p align="left"><strong>Tienen soporte limitado pero existe comunidad de desarolladores para actualizar con una ROM</strong></p>
+        </ul>
+        <h2>
+          <p>&nbsp;</p>
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Gama media </h1>
+              <div>
+                <p></p>
+                <br>
+              </div>
+              <div>
+              <img src="imagenes/gmedia.jpg" width="50%" height="50%"> </div>
+            </div>
+          </div>
+        </h2>
+        <h2 align="left">          <strong>Gama baja</strong></h2>
+        <p align="left"><strong>En está categoría entran desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones (Ej: el nokia n8 es una reliquia de colección pero su cámara es muy adelantada para cuando fue lanzado al mercado)</strong></p>
+        <p align="left"><strong>Sus caracteristicas son las siguientes:</strong></p>
+        <div align="left">
+          <ul>
+          </ul>
+        </div>
+        <ul>
+          <p align="left"><strong>Suelen ser pequeños</strong></p>
+          <p align="left"><strong>Tienen funciones básicas o las funciones que traen ya no están a la altura de un SmartPhone (ej:nokia)</strong></p>
+          <p align="left"><strong>Precios muy economicos</strong></p>
+          <p align="left"><strong>Características muy limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el tiempo)</strong></p>
+          <p align="left"><strong>No reciben soporte ni actualizaciones.</strong></p>
+        </ul>
+        <h2>
+          <p>&nbsp;</p>
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Gama baja</h1>
+              <div>
+                <p></p>
+                <br>
+              </div>
+              <div>
+              <img src="imagenes/gbaja.jpg" width="50%" height="50%"> </div>
+            </div>
+          </div>
+      </div>
+       </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Dos, AGRB</h4>
+        </div>
+        </div>
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Compañías que manejan la telefonía celular en México</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+      <p><a href="http://www.telcel.com/" target="_self">TELCEL</a></p>
+      <p><a href="http://www.movistar.com.mx/" target="_self">MOVISTAR</a></p>
+      <p><a href="https://www.att.com.mx/" target="_self">IUSACELL</a></P>
+        <h2><p>AT&T es el operador con mejor desempeño en términos generales, por encima de Movistar y Telcel, según el reporte Estado de las redes Móviles: México, realizado por la firma de análisis británica Open Signal.</p>
+        
+<p>El último año ha sido uno agitado para el sector de las telecomunicaciones en México. Por un lado, AT&T llegó con fuerza al mercado, absorbiendo a Iusacell, Nextel y Unefon para crear el primer bloque norteamericano que va desde Canadá hasta nuestro país. Por otra parte, Telcel intenta reducir su tamaño para cumplir con la regulación vigente.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>AT&T</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><a href="http://www.telcel.com/" target="_self"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/compañia2.jpg',1)"><img src="imagenes/compañia3.jpg" width="610" height="310" id="Image29"></a> </div>
+</div>
+</div>
+        </div>
+      </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4>Aplicacion Dos, AGRB</h4>
+      </div>
+      </div>
+      <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Teléfonos celulares del futuro</h1>
+    </div>
+    <h2><P>LGZ</P>
+    <P>El nuevo smartphone de LG, el LG Z,destaca por su flexibilidad y nunca mejor dicho. La pantalla de este dispositivo va  a ser cóncava, parecida a la la de una pantalla OLED curva de TV. También será Full HD, la misma que incorpora el también anunciado LG G2.</P>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>LGZ</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/evolucion1.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<p><strong>Oppo N1</strong></p>
+<p><strong>Un smartphone que destaca por su diseño moderno, aunque no tan novedoso como cabría esperar. Tiene dos cámaras, delantera y trasera, y panel táctil trasero. Tiene una cámara 13 MP y f/2.0, además de contar con Android 4.2.2.</strong></p>
+</h1>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Oppo N1</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/evolucion2.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<h2><strong>Proyecto ARA</strong></h2>
+<h2><strong>Google tiene la idea de que los teléfonos jamás se queden obsoletos, y que puedan actualizar su software y su hardware sin mayores problemas para estar siempre a la última. Así nació el Proyecto Ara, que pretende construir teléfonos que, literalmente, sean armables con piezas intercambiables según las necesidades de cada usuario.</strong></h2>
+</h1>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Proyecto ARA</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/evolucion3.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<h2><strong>Pantallas Flexibles Samsung</strong></h2>
+<h2><strong>Samsung sorprendió al mundo al presentar los prototipos funcionales de un teléfono inteligente con una pantalla completamente flexible. De hecho, el modelo presentado, con Windows Phone, se guardaba en una caja plástica y de ahí salía desenrollado y listo para ser manipulado.</strong></h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Samsung</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/evolucion4.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<h2><strong>Celulares en tu muñeca</strong></h2>
+<h2><strong>el Puls smartwatch es uno de los primeros relojes inteligentes que realmente podían funcionar sin un smartphone a su lado. Con capacidad de realizar y recibir llamadas y mensajes gracias a su chip SIM, el reloj que lanzó el cantante Will.i.am ciertamente abre la puerta a que los celulares del futuro se lleven en la muñeca.</strong></h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Celular de muñeca</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div> <img src="imagenes/evolucion5.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+      <div>
+       </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Dos, AGRB</h4>
+      </div>
+     </div>
+    </body>
+</html>
